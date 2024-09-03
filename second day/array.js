@@ -65,6 +65,9 @@ var mixArr = [12, "Strak",  ,  true, 24.25]; //diffrent type of data
 
 // splice(); : it remove the item from the index to given range.
 // ArrayName.splice(index, range);
-arr.splice(4, 1);
+// arr.splice(4, 1);
 
-console.log(arr); // [1, 2, 3, 4, 6, 7, 8, 9, 10]
+// console.log(arr); // [1, 2, 3, 4, 6, 7, 8, 9, 10]
+
+arr.splice(5, 2);
+console.log(arr);
